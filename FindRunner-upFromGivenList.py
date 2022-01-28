@@ -1,0 +1,19 @@
+N= int(input())
+
+list1=map(int,input().split())
+
+list1 = sorted(list1)
+new_list = []
+
+for i in list1:
+    if i not in new_list:
+        new_list.append(i)
+
+if len(new_list)>1:
+    print(new_list[len(new_list)-2])
+
+
+
+# Priya Makadia
+# 20CE049
+
